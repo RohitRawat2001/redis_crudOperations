@@ -100,6 +100,7 @@ public class UserDao {
 }
 ```
 # Explanation:
+
 ```json
 - Repository Pattern: This class handles interactions with Redis.
 - HASH_KEY: Redis stores data as key-value pairs; HASH_KEY ("USER") groups all users in a hash map.
