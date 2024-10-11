@@ -57,6 +57,7 @@ public class UserDto implements Serializable {
 ```
 
 # 2. Redis Repository (UserDao)
+
 Code:
 ```java
 @Repository
