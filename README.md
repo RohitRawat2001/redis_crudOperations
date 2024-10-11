@@ -53,6 +53,7 @@ public class UserDto implements Serializable {
 - @Id: Marks userId as the identifier.
 - Serializable: Allows the object to be converted into a byte stream so it can be stored in Redis (which uses serialized data).
 ```
+
 # 2. Redis Repository (UserDao)
 Code:
 ```java
