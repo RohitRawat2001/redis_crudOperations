@@ -148,6 +148,7 @@ RedisTemplate:
 - Key Serializer: StringRedisSerializer ensures the key (userId) is stored as a string.
 - Value Serializer: GenericJackson2JsonRedisSerializer serializes UserDto objects into JSON format so they can be stored in Redis.
 ```
+
 # 4. User Controller (UserDtoController)
 Code:
 
