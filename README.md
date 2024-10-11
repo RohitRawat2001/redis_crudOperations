@@ -43,7 +43,9 @@ public class UserDto implements Serializable {
     private String about;
 }
 ```
+
 # Explanation:
+
 ```json
 - UserDto is a simple data structure used to transfer user-related data.
 -- Annotations:
